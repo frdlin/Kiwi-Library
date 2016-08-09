@@ -1,0 +1,222 @@
+﻿#header {
+	background: #333333;
+	border-top: 7px solid #9CBD41;
+	height: 79px;
+	width: 100%;
+	min-width: 1000px;
+}
+
+.logo {
+	background: url(../images/logo.png) no-repeat;
+	float: left;
+	height: 30px;
+	margin: 24px 0 0 52px;
+	width: 89px;
+}
+
+#link-navigation {
+	float: right;
+	margin: 21px 14px 0 0 ;
+	width: 500px;
+}
+
+#link-navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#link-navigation li {
+	border-left: 1px solid #666666;
+	color: #FFFFFF;
+	float: right;
+	padding: 0 14px;
+}
+
+#link-navigation li.user {
+	border-left: none;
+}
+
+#main-nav {
+	background: #666666;
+	height: 62px;
+	width: 100%;
+}
+
+#main-navigation {
+	float: left;
+	margin: 0;
+	min-width: 1000px;
+}
+
+#main-navigation ul {
+	list-style: none;
+	margin: 5px 0;
+	padding: 0;
+}
+
+#main-navigation li {
+	border-right: 1px dashed #999999;
+	color: #FFFFFF;
+	float: left;
+	font-size: 11px;
+	height: 52px;
+	padding: 0 4px;
+}
+
+#main-navigation li.last {
+	border-right: none;
+}
+
+#main-navigation .classified {
+	margin-bottom: 3px;
+	text-align: center;
+}
+
+#nav-button {
+	float: left;
+	margin: 0 ;
+}
+
+#nav-button ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+#nav-button li {
+	border: 0;
+	float: left;
+	margin: 3px 2px 0;
+	padding: 0;
+}
+
+#nav-button .overviews, #nav-button .pan, #nav-button .zoom-in, #nav-button .zoom-out, #nav-button .fixed-zoom-out, #nav-button .fixed-zoom-in, #nav-button .street-viewer, #nav-button .location-explorer, #nav-button .market-explorer, #nav-button .identify, #nav-button .search-found, #nav-button .measurement, #nav-button .snap-shot, #nav-button .print-map, #nav-button .add-site, #nav-button .add-trade-zone, #nav-button .add-competitor, #nav-button .add-score, #nav-button .edit-score, #nav-button .performance, #nav-button .upload  {
+	background: #999999;
+	background-image: url(../images/main-function.png);
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#nav-button :hover {
+	background: #333333;
+	background-image: url(../images/main-function.png);
+}
+
+#nav-button :active {
+	background: #333333;
+	background-image: url(../images/main-function.png);
+}
+
+#nav-button .overviews {
+	background-position: 0 0;
+}
+
+#nav-button .pan {
+	background-position: -30px 0;
+}
+
+#nav-button .zoom-in {
+	background-position: -60px 0;
+}
+
+#nav-button .zoom-out {
+	background-position: -90px 0;
+}
+
+#nav-button .fixed-zoom-out {
+	background-position: -120px 0;
+}
+
+#nav-button .fixed-zoom-in {
+	background-position: 0px -30px;
+}
+
+#nav-button .street-viewer {
+	background-position: -30px -30px;
+}
+
+#nav-button .market-explorer {
+	background-position: -60px -30px;
+}
+
+#nav-button .location-explorer {
+	background-position: -90px -30px;
+}
+
+#nav-button .identify {
+	background-position: -120px -30px;
+}
+
+#nav-button .search-found {
+	background-position: 0px -60px;
+}
+
+#nav-button .measurement {
+	background-position: -30px -60px;
+}
+
+#nav-button .snap-shot {
+	background-position: -60px -60px;
+}
+
+#nav-button .print-map {
+	background-position: -90px -60px;
+}
+
+#nav-button .add-site {
+	background-position: -120px -60px;
+}
+
+#nav-button .add-trade-zone {
+	background-position: 0px -90px;
+}
+
+#nav-button .add-competitor {
+	background-position: -30px -90px;
+}
+
+#nav-button .add-score {
+	background-position: -60px -90px;
+}
+
+#nav-button .edit-score {
+	background-position: -90px -90px;
+}
+
+#nav-button .performance {
+	background-position: -120px -90px;
+}
+
+#nav-button .upload {
+	background-position: 0px -120px;
+}
+
+#basemap-button {
+	margin: 0;
+}
+
+#basemap-button ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#basemap-button li {
+	margin: 3px 0 0 0;
+	border: 0;
+	cursor: pointer;
+	padding: 0 2px;
+	height: 17px;
+}
+
+
+
+
+
+

@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Header</title>
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="stylesheet" type="text/css" href="css/nav.css" />
+<link rel="stylesheet" type="text/css" href="css/qq.css" />
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/global-scripts.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/head-slider.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/ui.selectmenu.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('select#ZIQQ').selectmenu({maxHeight: 150});
+		});
+	</script>
+</head>
+<body>
+	<div id="header">
+		<div class=logo></div>
+		<div id="link-navigation">
+			<ul>
+				<li><a href="#">Logout</a></li>
+				<li><a href="#">Help</a></li>
+				<li><a href="#">Settings</a></li>
+				<li><a href="#">Report Center</a></li>
+				<li class="user">Welcome, Thomas</li>
+			</ul>
+		</div>
+	</div>
+	<div id="main-nav">
+		<div id="main-navigation">
+			<ul>
+				<li style="min-width:195px; width:auto;">
+					<div class="classified">Map Extent</div>
+					<div id="nav-button">
+						<ul>
+							<li class="overview" title="Click to open overview map"></li>
+						</ul>
+					</div>
+
+			<select name="speedAa" id="ZIQQ">
+				<option value="Slower">Slower</option>
+				<option value="Slow">Slow</option>
+				<option value="Medium" selected="selected">Medium</option>
+				<option value="Fast">Fast</option>
+				<option value="Faster">Faster</option>
+				<option value="Slower">Slower</option>
+				<option value="Slow">Slow</option>
+				<option value="Medium" selected="selected">Medium</option>
+				<option value="Fast">Fast</option>
+				<option value="Faster">Faster</option>
+				<option value="Slower">Slower</option>
+				<option value="Slow">Slow</option>
+				<option value="Medium" selected="selected">Medium</option>
+				<option value="Fast">Fast</option>
+				<option value="Faster">Faster</option>
+			</select>
+
+				</li>
+				<li>
+					<div class="classified">Basemap / Image</div>
+					<div id="basemap-button">
+						<ul>
+							<li title="Street view">street</li>
+							<li title="Satellite view">satellite</li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+						<div id="slider"></div>
+						<script>
+							$(function() {
+								$( "#slider" ).slider({
+									orientation: "horizon",
+									range: "min",
+									min: 0,
+									max: 100,
+									values: 60,
+									step: 10,
+									slide: function( event, ui ) {
+										$( "#amount" ).val( ui.value );
+									}
+								});
+								$( "#amount" ).val( $( "#slider" ).slider( "value" ) );
+							});
+						</script>
+				</li>
+				<li>
+					<div class="classified">Zoom / Pan</div>
+					<div id="nav-button">
+						<ul>
+							<li class="pan" title="Pan"></li>
+							<li class="zoom-in" title="Zoom In"></li>
+							<li class="zoom-out" title="Zoom Out"></li>
+							<li class="fixed-zoom-in" title="Fix Zoom In"></li>
+							<li class="fixed-zoom-out" title="Fix Zoom Out"></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div class="classified">Explorer</div>
+					<div id="nav-button">
+						<ul>
+							<li class="market-explorer" title="Market Explorer"></li>
+							<li class="identify" title="Identify"></li>
+							<li class="search-found" title="Search/Found""></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div class="classified">Tools</div>
+					<div id="nav-button">
+						<ul>
+							<li class="measurement" title="Measurement"></li>
+							<li class="snap-shot" title="Snap Shot"></li>
+							<li class="print-map" title="Print Map"></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div class="classified">Add Location</div>
+					<div id="nav-button">
+						<ul>
+							<li class="add-site" title="Add Study Site"></li>
+							<li class="add-trade-zone" title="Add Trade Zone"></li>
+							<li class="add-competitor" title="Add Competitor"></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div class="classified">Score Card</div>
+					<div id="nav-button">
+						<ul>
+							<li class="add-score" title="Add ML Score"></li>
+							<li class="edit-score" title="Add ML Score"></li>
+						</ul>
+					</div>
+				</li>
+				<li class="last">
+					<div class="classified">Performance</div>
+					<div id="nav-button">
+						<ul>
+							<li class="performance" title="Performance"></li>
+							<li class="upload" title="Upload Data"></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+					<!--div id="nav-button">
+						<ul>
+							<li class="overview" title="Click to open overview map"></li>
+							<li class="pan" title="Pan"></li>
+							<li class="zoom-in" title="Zoom In"></li>
+							<li class="zoom-out" title="Zoom Out"></li>
+							<li class="fixed-zoom-in" title="Fix Zoom In"></li>
+							<li class="fixed-zoom-out" title="Fix Zoom Out"></li>
+							<li class="street-viewer" title="Street Viewer"></li>
+							<li class="market-explorer" title="Market Explorer"></li>
+							<li class="location-explorer" title="Location Explorer"></li>
+							<li class="identify" title="Identify"></li>
+							<li class="search-found" title="Search/Found""></li>
+							<li class="measurement" title="Measurement"></li>
+							<li class="snap-shot" title="Snap Shot"></li>
+							<li class="print-map" title="Print Map"></li>
+							<li class="add-site" title="Add Study Site"></li>
+							<li class="add-trade-zone" title="Add Trade Zone"></li>
+							<li class="add-competitor" title="Add Competitor"></li>
+							<li class="add-score" title="Add ML Score"></li>
+							<li class="edit-score" title="Add ML Score"></li>
+							<li class="performance" title="Performance"></li>
+							<li class="upload" title="Upload Data"></li>
+						</ul>
+					</div-->
+</html>

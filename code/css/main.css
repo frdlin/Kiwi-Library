@@ -1,0 +1,341 @@
+/* Reset */
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, abbr, article, aside, command, details, figcaption, figure, footer, header, hgroup, mark, meter, nav, output, progress, section, summary, time {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset, iframe {
+	border: none;
+}
+
+caption, th {
+	text-align: left;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+article, aside, footer, header, hgroup, nav, section, figure, figcaption, div {
+	display: block;
+}
+
+/* Basic Elements */
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.clear {
+	clear: both;
+}
+
+img {
+	border: 0;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.left_f {
+	float: left;
+	text-align: left;
+}
+
+.right_f {
+	float: right;
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.main_wrap {
+	clear: both;
+	display: block; 
+	margin: 0 auto;
+	text-align: left;
+	width: 1000px;
+}
+
+.center_wrap {
+	float: none;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+	width: 1000px;
+}
+
+/* TYPE */
+body {
+	font-family: Open Sans;
+	color: #999999;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: none;
+	font-size: 12px;
+}
+
+a {
+	color: #9CBD41;
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	font-weight: 400;
+	color: #666666;
+	font-size: 22px;
+	line-height: 26px;
+	float: left;
+}
+
+h2.sub {
+	font-size: 14px;
+	line-height: 18px;
+	float: left;
+	color: #999999;
+}
+
+/* BODY */
+.window-title {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.window-close {
+	float: right;
+	background-image: url(../images/btn-box-close.png);
+	cursor: pointer;
+	height: 12px;
+	width: 12px;
+	right: 0;
+	top: 0;
+}
+
+.window-close:hover {
+	background-position: 0 -18px;
+}
+
+.floating-box {
+	position: relative;
+	float: left;
+	display: block;
+}
+
+.floating-content {
+	padding: 20px;
+	border: 5px solid #999999;
+	border-bottom: none;
+	background: #FFFFFF;
+}
+
+.floating-footer {
+	padding: 0 20px;
+	height: 50px;
+	background: #CCCCCC;
+	bottom: 0;
+	text-align: right;
+	line-height: 50px;
+	vertical-align: middle;
+	border: 5px solid #999999;
+	border-top: none;
+}
+
+.sp {
+	background: #9BBC41;
+}
+
+/*----------------- Kiwi -------------------*/
+
+/* Slider */
+
+.ui-state-default {
+	border: 1px solid #ffffff;
+	background: #9bbc41;
+}
+
+.ui-slider {
+	position: relative;
+	text-align: left;
+	margin: 8px 6px 0 6px;
+}
+
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 8px;
+	height: 8px;
+	cursor: default;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+	height: 1px;
+	background: #999999;
+	border: none;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+	top: -5px;
+	margin-left: -6px;
+}	
+
+.ui-slider-horizontal {
+	height: 1px;
+	background: #999999;
+	border: none;
+}
+
+/* Button */
+#btn-in-function, #btn-in-function:link, #btn-control, #btn-control:link { 
+	padding: 0;
+	color: #FFFFFF;
+	background: #999999;
+	border: 1px solid #999999;
+	font-size: 11px;
+}
+
+#btn-specialized, #btn-specialized:link { 
+	padding: 0;
+	color: #FFFFFF;
+	background: #9BBC41;
+	vertical-align: middle;
+	border: 1px solid #9BBC41;
+}
+
+#btn-in-function, #btn-in-function:link { 
+	height: 15px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	line-height: 15px;
+	vertical-align: middle;
+}
+
+#btn-control, #btn-control:link, #btn-specialized, #btn-specialized:link { 
+	height: 24px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+
+	vertical-align: middle;
+}
+
+#btn-control:hover, #btn-specialized:hover {
+	background: #666666;
+	border: 1px solid #666666;
+}
+
+#btn-in-function:hover {
+	background: #333333;
+	border: 1px solid #333333;
+}
+
+#btn-in-function.w-thirty, #btn-control.w-thirty, #btn-specialized.w-thirty {
+	width: 30px;
+}
+
+#btn-in-function.w-fifty, #btn-control.w-fifty, #btn-specialized.w-fifty {
+	width: 50px;
+}
+
+#btn-in-function.w-seventy, #btn-control.w-seventy, #btn-specialized.w-seventy {
+	width: 70px;
+}
+
+#btn-in-function.w-ninety, #btn-control.w-ninety, #btn-specialized.w-ninety {
+	width: 90px;
+}
+
+/* SELECT BOX */
+
+/* CHECKBOX RADIO-BTN */
+span.ui-checkbox {
+	display: block;
+	float: left;
+	width: 16px;
+	height: 16px;
+	background: url(../images/icon_checkbox.png) 0 0 no-repeat;
+}
+			
+span.ui-radio {
+	display: block;
+	float: left;
+	width: 16px;
+	height: 16px;
+	background: url(../images/icon_checkbox.png) 0 -48px no-repeat;
+}
+			
+span.ui-helper-hidden {
+	display: none;
+}
+			
+.ui-helper-hidden-accessible {
+	position: absolute;
+	left: -999em;
+}
+			
+label {
+	margin: 0;
+	padding: 0 0 0 2px;
+	color: #999999;
+}
+			
+span.ui-checkbox-state-checked, span.ui-checkbox-state-checked-hover {
+	background-position: 0 -16px;
+}
+			
+span.ui-radio-state-checked, span.ui-radio-state-checked-hover {
+	background-position: 0 -64px;
+}
+
+#v-checkbox, #v-radiobtn, #h-checkbox, #h-radiobtn {
+	margin: 0;
+
+}
+
+#v-checkbox ul, #v-radiobtn ul, #h-checkbox ul, #h-radiobtn ul {
+	margin: 0;
+	padding: 0;
+	
+}
+
+#v-checkbox li, #v-radiobtn li {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 5px;
+}
+
+#h-checkbox li, #h-radiobtn li {
+	list-style: none;
+	padding: 0 10px 0 0;
+	float: left;
+}
